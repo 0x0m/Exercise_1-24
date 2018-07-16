@@ -27,7 +27,7 @@ int main(int argc, char *argv[]){
 	}else{
 		FILE* file;
 		if((file = fopen(argv[1], "r")) == NULL){
-			printf("File cannot be opened OR it's empty.\n");
+			printf("File cannot be opened.\n");
 			return -1;
 		}else{
 			size_t pos = ftell(file);    // Current position
