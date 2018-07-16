@@ -9,8 +9,9 @@ gcc main.c -o main
 # Run
 ./main path/to/checkedFile.c
 # Example
-./main main.c\n
-Found 141 matched parentheses.\n
+'''
+./main main.c
+Found 141 matched parentheses.
 (OK)
 Found 24 matched brackets.
 [OK]
@@ -24,3 +25,4 @@ Found 44 single quotes.
 'OK'
 File length:6073
 Done.
+'''
